@@ -1,0 +1,20 @@
+{
+  "name": "appium",
+  "version": "1.0.3",
+  "description": "",
+  "main": "funcional.js",
+  "scripts": {
+    "package": "npm install && npx npm-bundle && zip -r bundle.zip *.tgz && rm *.tgz"
+  },
+  "files": [
+    "funcional.js",
+    "carga.js",
+    "usabilidad.js"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "webdriverio": "^7.0.0"
+  },
+  "devDependencies": {}
+}
